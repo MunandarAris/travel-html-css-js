@@ -8,9 +8,9 @@ document.querySelector('.close-icons').onclick = () => {
     navbar.classList.remove('active')
 }
 
-window.onscroll = () => {
+window.addEventListener('scroll', () => {
     navbar.classList.remove('active')
-}
+})
 
 let searchArea = document.querySelector('.serach-form');
 
